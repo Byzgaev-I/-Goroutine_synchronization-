@@ -49,13 +49,12 @@ func main() {
 }
 ```
 
-
-
 ### Ссылка на песочницу  [Синхронизация горутин](https://go.dev/play/p/0fsq-I277UY) 
 
 
+### Выполнение кода и основые тесты.
 
-
+![image](https://github.com/Byzgaev-I/-Goroutine_synchronization-/blob/main/Парал-1.png) 
 
 
 
