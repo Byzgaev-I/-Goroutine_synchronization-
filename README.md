@@ -63,13 +63,32 @@ func main() {
 - Программа завершилась без ошибок.    
 - Код компилируется и работает.    
 
+### Финальная проверка
+Выполняем еще все тесты
 
 
+### Обычный запуск 
+```bash
+go run mutex_waitgroup.go
+```
 
+### Проверка на гонки
 
-
-
-
+```bash
+go run -race mutex_waitgroup.go
+```
+### Форматирование
+```bash
+go fmt mutex_waitgroup.go
+```
+### Проверка ошибок
+```bash
+go vet mutex_waitgroup.go
+```
+### Стабильность (5 запусков)
+```bash
+for i in {1..5}; do go run mutex_waitgroup.go; done
+```
 
 
 
