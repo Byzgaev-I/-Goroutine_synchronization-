@@ -57,7 +57,11 @@ func main() {
 ![image](https://github.com/Byzgaev-I/-Goroutine_synchronization-/blob/main/Парал-1.png) 
 
 
+### Все работает: 
 
+- Результат 10000 — правильно.  
+- Программа завершилась без ошибок.    
+- Код компилируется и работает.    
 
 
 
